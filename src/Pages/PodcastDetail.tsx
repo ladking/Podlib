@@ -6,11 +6,11 @@ function PodcastDetail() {
     const {id} = useParams()
     const pod = AllPod.find( pod => id === pod.id)
 
-    const episodes = pod?.allepisodes.map(eps => (
-        <div>
-            
-        </div>
-    ))
+    // const episodes = pod?.allepisodes.map(eps => (
+    //     <div>
+
+    //     </div>
+    // ))
     
   return (
     <div className=''>
